@@ -15,7 +15,7 @@ var obiBaseUrl = "https://www.obi.ru"
 var products []*Product
 
 func main() {
-	path := (".")
+	path := ("")
 	fmt.Println(path)
 	collector := GetCollector()
 	responsesCounter := 0
